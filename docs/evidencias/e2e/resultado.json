@@ -1,0 +1,178 @@
+{
+  "fecha": "2026-11-23T11:36:26.162Z",
+  "navegador": "Microsoft Edge (playwright-core, sin interfaz)",
+  "base": "reservas_saas_test",
+  "etiqueta": "e2e-f1a7c3",
+  "aprobados": 24,
+  "fallidos": 0,
+  "pasos": [
+    {
+      "id": "HU-13-E4",
+      "title": "Registro de organización: panel en cero con mensaje de bienvenida",
+      "ok": true,
+      "ms": 2228,
+      "evidence": "01-panel-bienvenida.png"
+    },
+    {
+      "id": "HU-03-E3",
+      "title": "Servicio con duración 0: mensaje oficial y no se guarda",
+      "ok": true,
+      "ms": 410,
+      "evidence": "02-servicio-duracion-invalida.png"
+    },
+    {
+      "id": "HU-03-E1",
+      "title": "Servicio \"Limpieza dental\" de 30 min y S/ 45 creado",
+      "ok": true,
+      "ms": 869,
+      "evidence": null
+    },
+    {
+      "id": "HU-02-E3",
+      "title": "Profesional sin especialidad: mensaje oficial",
+      "ok": true,
+      "ms": 2881,
+      "evidence": "03-profesional-sin-especialidad.png"
+    },
+    {
+      "id": "HU-02-E1/E2",
+      "title": "Profesional con especialidad y horario de lunes a sábado",
+      "ok": true,
+      "ms": 2196,
+      "evidence": "04-profesional-editor-turnos.png"
+    },
+    {
+      "id": "HU-01-E3",
+      "title": "Cliente con correo \"juan@correo\": mensaje oficial",
+      "ok": true,
+      "ms": 451,
+      "evidence": "05-cliente-correo-invalido.png"
+    },
+    {
+      "id": "HU-01-E1",
+      "title": "Cliente registrado con teléfono y notas de atención",
+      "ok": true,
+      "ms": 733,
+      "evidence": "06-clientes-listado.png"
+    },
+    {
+      "id": "HU-11-E1",
+      "title": "El administrador crea la cuenta de recepción y la del cliente",
+      "ok": true,
+      "ms": 1924,
+      "evidence": "07-usuarios-roles.png"
+    },
+    {
+      "id": "HU-15-E2",
+      "title": "Cerrar sesión vuelve a la pantalla de inicio de sesión",
+      "ok": true,
+      "ms": 338,
+      "evidence": null
+    },
+    {
+      "id": "HU-15-E3",
+      "title": "Contraseña incorrecta: mensaje oficial sin indicar el campo",
+      "ok": true,
+      "ms": 411,
+      "evidence": "08-login-credenciales-invalidas.png"
+    },
+    {
+      "id": "HU-15-E1/HU-07-E1/HU-04-E1",
+      "title": "El cliente entra a \"Reservar cita\", consulta disponibilidad y reserva",
+      "ok": true,
+      "ms": 4204,
+      "evidence": "09-cliente-disponibilidad.png"
+    },
+    {
+      "id": "HU-04-E4/HU-15-E4",
+      "title": "Sesión vencida al confirmar una reserva: no se crea y se pide iniciar sesión",
+      "ok": true,
+      "ms": 3412,
+      "evidence": "12-sesion-expirada.png"
+    },
+    {
+      "id": "HU-15-E1/HU-11-E1",
+      "title": "Recepción entra a \"Citas\" y no ve el panel de indicadores",
+      "ok": true,
+      "ms": 863,
+      "evidence": null
+    },
+    {
+      "id": "HU-12-E1",
+      "title": "Búsqueda por nombre de cliente",
+      "ok": true,
+      "ms": 941,
+      "evidence": "13-citas-busqueda-cliente.png"
+    },
+    {
+      "id": "HU-12-E3",
+      "title": "Rango de fechas invertido: mensaje oficial y no se busca",
+      "ok": true,
+      "ms": 110,
+      "evidence": "14-citas-rango-invalido.png"
+    },
+    {
+      "id": "HU-12-E4",
+      "title": "Filtro sin resultados: mensaje oficial",
+      "ok": true,
+      "ms": 483,
+      "evidence": "15-citas-sin-resultados.png"
+    },
+    {
+      "id": "HU-10-E2",
+      "title": "Recepción confirma la cita",
+      "ok": true,
+      "ms": 2197,
+      "evidence": null
+    },
+    {
+      "id": "HU-08-E3",
+      "title": "Falla al cargar la agenda: mensaje y botón Reintentar",
+      "ok": true,
+      "ms": 328,
+      "evidence": "16-agenda-error-reintentar.png"
+    },
+    {
+      "id": "HU-08-E1/E2",
+      "title": "Agenda mensual con color por estado y paso a la vista diaria del día de la cita",
+      "ok": true,
+      "ms": 1088,
+      "evidence": "17-agenda-mensual-colores.png"
+    },
+    {
+      "id": "HU-08-E4",
+      "title": "Día sin citas: aviso explícito sin errores",
+      "ok": true,
+      "ms": 455,
+      "evidence": "19-agenda-dia-vacio.png"
+    },
+    {
+      "id": "HU-06-E1/E2",
+      "title": "Recepción cancela con motivo y el horario se libera",
+      "ok": true,
+      "ms": 2707,
+      "evidence": "20-cancelacion-motivo.png"
+    },
+    {
+      "id": "Responsivo",
+      "title": "Vista móvil (390 px) del listado de citas",
+      "ok": true,
+      "ms": 422,
+      "evidence": "21-movil-citas.png"
+    },
+    {
+      "id": "HU-13-E1/HU-06-E2",
+      "title": "El administrador ve indicadores con la cancelación por motivo",
+      "ok": true,
+      "ms": 1772,
+      "evidence": "22-panel-indicadores.png"
+    },
+    {
+      "id": "HU-13-E3",
+      "title": "Falla al calcular indicadores: error amigable sin datos obsoletos",
+      "ok": true,
+      "ms": 470,
+      "evidence": "23-panel-error.png"
+    }
+  ]
+}
